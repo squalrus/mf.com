@@ -1,0 +1,24 @@
+{
+  "name": "moistflap.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/squalrus/mf.com.git"
+  },
+  "author": "chad.awesome@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/squalrus/mf.com/issues"
+  },
+  "homepage": "http://www.moistflap.com"
+}
