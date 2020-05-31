@@ -13,7 +13,7 @@
 
     <style amp-custom>
         body {
-            background-image: url(flap.gif);
+            background-image: url(flap.png);
             background-position: 50% 0;
             background-size: cover;
         }
@@ -35,6 +35,14 @@
     <main id="main">
         <h1>Moist Flap</h1>
     </main>
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            var sheet = document.createElement('style')
+            sheet.innerHTML = ' body {background-image: url(flap.gif);}' ;
+            document.body.appendChild(sheet);
+        });
+    </script>
+
     <amp-analytics type="googleanalytics" id="ga">
         <script type="application/json">
             {
