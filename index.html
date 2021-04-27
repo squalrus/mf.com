@@ -2,23 +2,27 @@
 <html lang="en" ⚡>
 
 <head>
-    <title>moist flap</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>moist flap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="flaps that are moist">
     <meta name="keywords" content="moist,flap">
 
     <link rel="canonical" href="https://www.moistflap.com/">
     <style amp-custom>
         body {
-            background-image: url(flap.png);
+            background-image: url(flap.gif);
             background-position: 50% 0;
             background-size: cover;
         }
 
         h1 {
             color: #fff;
-            font-family: arial, /* Windows, MacOS */ helvetica, /* Unix+X, MacOS */ sans-serif;
+            font-family: arial,
+                /* Windows, MacOS */
+                helvetica,
+                /* Unix+X, MacOS */
+                sans-serif;
             font-size: 90px;
             font-weight: 900;
             text-shadow: 5px 5px 0 #222;
@@ -34,24 +38,20 @@
     <main id="main">
         <h1>Moist Flap</h1>
     </main>
-    <script>
-        window.addEventListener('DOMContentLoaded', function () {
-            var sheet = document.createElement('style')
-            sheet.innerHTML = ' body {background-image: url(flap.gif);}' ;
-            document.body.appendChild(sheet);
-        });
-    </script>
 
-    <amp-analytics type="googleanalytics" id="ga">
+    <amp-analytics type="gtag" data-credentials="include">
         <script type="application/json">
             {
-                "vars": {
-                    "account": "UA-10469485-5"
-                },
-                "triggers": {
-                    "trackPageview": {
-                        "on": "visible",
-                        "request": "pageview"
+                "vars" : {
+                    "gtag_id": "UA-10469485-5",
+                    "config" : {
+                        "UA-10469485-5": { "groups": "default" }
+                    },
+                    "triggers": {
+                        "trackPageview": {
+                            "on": "visible",
+                            "request": "pageview"
+                        }
                     }
                 }
             }
