@@ -3,7 +3,7 @@
     "responseOverrides": {  },
     "globalHeaders": {
         "cache-control": "must-revalidate, max-age=604800",
-        "content-security-policy": "default-src 'self' https://www.moistflap.com; script-src 'self' https://www.google-analytics.com https://cdn.ampproject.org; style-src 'self' https://www.moistflap.com 'unsafe-inline'; img-src 'self' https://www.google-analytics.com; connect-src https://www.google-analytics.com https://cdn.ampproject.org https://www.googletagmanager.com",
+        "content-security-policy": "default-src 'self' https://www.moistflap.com; script-src 'self' https://www.google-analytics.com https://www.googletagmanager.com; style-src 'self' https://www.moistflap.com 'unsafe-inline'; img-src 'self' https://www.google-analytics.com; connect-src https://www.google-analytics.com https://www.googletagmanager.com",
         "x-frame-options": "DENY"
     },
     "mimeTypes": {}
